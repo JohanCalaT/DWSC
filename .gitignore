@@ -28,9 +28,12 @@ appsettings.Development.json
 .dockerignore
 docker-compose.override.yml
 
-# OS files
-.DS_Store
-Thumbs.db
+# General Tool folders
+.claude/
+.gemini/
+.agent/
+.agents/
+.cursor/
 
 # User specific files
 *.suo
