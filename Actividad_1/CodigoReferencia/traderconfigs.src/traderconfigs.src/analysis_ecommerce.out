@@ -1,0 +1,17 @@
+================================================================================
+ANALISIS DE CONFIGURACIONES
+================================================================================
+
+  N  Configuracion                                        Cerrada   Respeta
+--------------------------------------------------------------------------------
+  1  C1, C2, C3, C4-{CART}, C5, C6                             SI        SI
+  2  C1, C2, C3, C4-{CART}, C5, C6-{ORDER}, C7-{PAYMENT}        NO        NO
+  3  C1, C2, C3, C4-{CART}, C5-{PAYMENT}, C6, C7-{ORDER}        NO        NO
+  4  C1, C2, C3, C4-{CART}, C5-{PAYMENT}, C6-{ORDER}, C7        NO        NO
+  5  C1, C2, C4, C5, C6                                        SI        SI
+  6  C1, C2, C4, C5, C6-{ORDER}, C7-{PAYMENT}                  NO        NO
+  7  C1, C2, C4, C5-{PAYMENT}, C6, C7-{ORDER}                  NO        NO
+  8  C1, C2, C4, C5-{PAYMENT}, C6-{ORDER}, C7                  NO        NO
+
+Configuraciones CERRADAS: [1, 5]
+Configuraciones que RESPETAN la arquitectura: [1, 5]
