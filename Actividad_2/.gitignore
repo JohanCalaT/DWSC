@@ -1,0 +1,19 @@
+[Aa]pp_Data/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esults/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.doccache
+appsettings.Development.json
+dist/
+node_modules/
+out/
+publish/
+<<<<<<< .mine
+=======
+>>>>>>> .r*
